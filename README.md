@@ -8,6 +8,8 @@
 ## Introduction
 [ServiceBricks](https://github.com/holomodular/ServiceBricks) is a powerful microservices platform designed to streamline the development, deployment, and maintenance of distributed systems. By leveraging Domain-Driven Design (DDD), Event-Driven Architecture (EDA), and a range of advanced features, ServiceBricks empowers teams to build robust, scalable, and highly customizable services tailored to their specific business domains.
 
+View the following sections to learn more about the ServiceBricks platform.
+
 ## Learning
 * [What are Microservices](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/WhatAreMicroservices.md): Learn about microservices and their benefits.
 * [ServiceBricks Key Features](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/KeyFeatures.md): Learn about the key features of the ServiceBricks platform.
@@ -15,28 +17,28 @@
 ## Architecture
 * [Major System Components](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/FlowOfData.md): Describes the major system components and how data flows through the system.
 * [Event-Driven Architecture](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/EventBasedArchitecture.md): Describes how Event-Driven Architecture (EDA) is used when processing methods.
-* [Classic vs Modern REST APIs](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ClassicVsModernRestApi.md): Describes the differences between Classic and Modern REST API Design implementations.
+* [Classic vs Modern REST API Design](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ClassicVsModernRestApi.md): Describes the differences between Classic and Modern REST API Design implementations and how to configure their usage.
+* [Xunit Test Framework](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/XunitTesting.md): Describes using the ServiceBricks.Xunit NuGet package and ensuring your microservices validate and conform to the platform.
 
-## ServiceBricks Features
+## Features
 
-* [API Services and Clients](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/APIServices.md): API Controllers, services, methods, policies and clients.
+* [API Controllers, Clients and Services](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/APIServices.md): API Controllers, clients, services, methods and policies. Classic and Modern modes of operation.
 * [Background Tasks](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BackgroundTasks.md): Background task processing.
 * [Business Rule Engine](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BusinessRuleEngine.md): Create, registering and executing business rules,
 * [Database Storage](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DatabaseStorage.md): Database storage and providers.
 * [Data Transfer Object](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DataTransferObject.md): DTOs and enabling storage agnostic, repository-based APIs.
-* [Domain Broadcasts](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainBroadcasts.md): Broadcasting domain events using service bus.
+* [Domain Broadcasts and Service Bus](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainBroadcasts.md): Broadcasting data using Service Bus.
 * [Domain Events](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainEvents.md): Event-driven architecture and using domain and repository events.
-* [Domain Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainObjects.md): Domain objects at the core of the platform.
+* [Domain Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainObjects.md): Domain objects are at the core of the platform.
+* [DomainRepository and StorageRepository](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainRepositoryAndStorageRepository.md): Understanding domain business logic and storage data access.
 * [Domain Rules](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainRules.md): Business rules and extending functionality.
 * [Domain Processes](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainProcesses.md): Domain processes and their usage for general integration.
 * [Exceptions](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/Exception.md): Exceptions and handling sensitive data in the platform.
-* [Mapping](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/Mapping.md): AutoMapper usage and mapping data.
-* [Modules](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/Modules.md): Registering a module with ServiceBricks.
-* [Request and Response Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/RequestAndResponse.md): Request and response objects and their usage.
-* [Service Bus](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ServiceBus.md): ServiceBus and communicating with other microservices.
-* [ServiceQuery](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ServiceBus.md): Dynamically query SQL and NoSQL database engines over REST APIs.
+* [Modules and Mappings](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ModulesAndMappings.md): Registering a module with ServiceBricks and using AutoMapper mappings.
+* [Request and Response Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/RequestAndResponse.md): Request and response objects, their usage and importance.
+* [ServiceQuery](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ServiceQuery.md): Dynamically query SQL and NoSQL database engines over REST APIs.
 
-## Getting Started
+## Getting Started with Examples
 * [Examples and Quickstart Applications](https://github.com/holomodular/ServiceBricks-Examples): View all our examples to create your own applications quickly.
 
 ## Official Pre-Built Microservices
