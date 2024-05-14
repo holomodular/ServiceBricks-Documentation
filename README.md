@@ -13,8 +13,9 @@
 * [ServiceBricks Key Features](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/KeyFeatures.md): Learn about the key features of the ServiceBricks platform.
 
 ## Architecture
-* [Flow of Data](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/FlowOfData.md): Understand how data flows through the system.
-* [Event-Based Architecture](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/EventBasedArchitecture.md): Understand how eventing is used in the system.
+* [Major System Components](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/FlowOfData.md): Describes the major system components and how data flows through the system.
+* [Event-Driven Architecture](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/EventBasedArchitecture.md): Describes how Event-Driven Architecture (EDA) is used when processing methods.
+* [Classic vs Modern REST APIs](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ClassicVsModernRestApi.md): Describes the differences between Classic and Modern REST API Design implementations.
 
 ## ServiceBricks Features
 
