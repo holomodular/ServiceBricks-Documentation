@@ -9,30 +9,12 @@
 [ServiceBricks](https://github.com/holomodular/ServiceBricks) is a powerful microservices platform designed to streamline the development, deployment, and maintenance of distributed systems. By leveraging Domain-Driven Design (DDD), Event-Driven Architecture (EDA), and a range of advanced features, ServiceBricks empowers teams to build robust, scalable, and highly customizable services tailored to their specific business domains.
 
 ## Learning
+* [What are Microservices](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/WhatAreMicroservices.md): Learn about microservices and their benefits.
 * [ServiceBricks Key Features](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/KeyFeatures.md): Learn about the key features of the ServiceBricks platform.
-* [What are Microservices?](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/WhatAreMicroservices.md): Learn about microservices and their benefits.
-
-## Getting Started
-* [ServiceBricks Examples](https://github.com/holomodular/ServiceBricks-Examples): View all our examples to create your own applications quickly.
-
-## Official Pre-Built Microservices
-We have developed several pre-built microservices to help get you started. View the following repositories for more information:
-* [Cache Microservice](https://github.com/holomodular/ServiceBricks-Cache): This repository is a temporary generic data storage microservice.
-
-* [Logging Microservice](https://github.com/holomodular/ServiceBricks-Logging): This repository is a service-scoped or centralized application and web request logging microservice.
-
-* [Notification Microservice](https://github.com/holomodular/ServiceBricks-Notification): This repository is a notification and delivery of emails and SMS messages microservice.
-
-* [Security Microservice](https://github.com/holomodular/ServiceBricks-Security): This repository is an authentication, authorization and application security microservice supporting JWT token membership for all ServiceBricks microservices.
-
-## Developing Your Own Microservices
-
-* Setup Development Environment: In order to develop ServiceBricks microservices, these are the tools you should have installed.
-* XUnit Testing Framework: Setup your test environment to verify your microservice is working correctly in the platform.
 
 ## ServiceBricks Features
 
-* [API Services and Clients](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/API.md): API Controllers, services, methods, policies and clients.
+* [API Services and Clients](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/APIServices.md): API Controllers, services, methods, policies and clients.
 * [Background Tasks](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BackgroundTasks.md): Background task processing.
 * [Business Rule Engine](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BusinessRuleEngine.md): Create, registering and executing business rules,
 * [Database Storage](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DatabaseStorage.md): Database storage and providers.
@@ -47,6 +29,22 @@ We have developed several pre-built microservices to help get you started. View 
 * [Modules](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/Modules.md): Registering a module with ServiceBricks.
 * [Request and Response Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/RequestAndResponse.md): Request and response objects and their usage.
 * [Service Bus](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ServiceBus.md): ServiceBus and communicating with other microservices.
+* [ServiceQuery](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ServiceBus.md): Dynamically query SQL and NoSQL database engines over REST APIs.
+
+## Getting Started
+* [Examples and Quickstart Applications](https://github.com/holomodular/ServiceBricks-Examples): View all our examples to create your own applications quickly.
+
+## Official Pre-Built Microservices
+We have developed several pre-built microservices to help get you started. View the following repositories for more information:
+* [Cache Microservice](https://github.com/holomodular/ServiceBricks-Cache): This repository is a temporary generic data storage microservice.
+* [Logging Microservice](https://github.com/holomodular/ServiceBricks-Logging): This repository is a service-scoped or centralized application and web request logging microservice.
+* [Notification Microservice](https://github.com/holomodular/ServiceBricks-Notification): This repository is a notification and delivery of emails and SMS messages microservice.
+* [Security Microservice](https://github.com/holomodular/ServiceBricks-Security): This repository is an authentication, authorization and application security microservice supporting JWT token membership for all ServiceBricks microservices.
+
+## Developing Your Own Microservices
+
+* [Setup Development Environment](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/APIServices.md): In order to develop ServiceBricks microservices, these are the tools you should have installed.
+* [Xunit Testing Framework](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/XunitTesting.md): Test and verify your microservice is working correctly in the platform.
 
 
 ## License
