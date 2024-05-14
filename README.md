@@ -8,12 +8,21 @@
 ## Introduction
 ServiceBricks is a powerful microservices platform designed to streamline the development, deployment, and maintenance of distributed systems. By leveraging Domain-Driven Design (DDD), Event-Driven Architecture (EDA), and a range of advanced features, ServiceBricks empowers teams to build robust, scalable, and highly customizable services tailored to their specific business domains.
 
-## Key Features
+## Learning
+* [Key Features](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/KeyFeatures.md): Learn about the key features of the ServiceBricks platform.
 
 ## Getting Started
-To get started with ServiceBricks, follow the instructions in our examples repository.
+* [ServiceBricks Examples](https://github.com/holomodular/ServiceBricks-Examples): View all our examples to create your own applications quickly.
 
-[ServiceBricks Examples](https://github.com/holomodular/ServiceBricks-Examples)
+## Official Pre-Built Microservices
+We have developed several pre-built microservices to help get you started. View the following repositories for more information:
+* [Cache Microservice](https://github.com/holomodular/ServiceBricks-Cache): This repository is a temporary generic data storage microservice.
+
+* [Logging Microservice](https://github.com/holomodular/ServiceBricks-Logging): This repository is a service-scoped or centralized application and web request logging microservice.
+
+* [Notification Microservice](https://github.com/holomodular/ServiceBricks-Notification): This repository is a notification and delivery of emails and SMS messages microservice.
+
+* [Security Microservice](https://github.com/holomodular/ServiceBricks-Security): This repository is an authentication, authorization and application security microservice supporting JWT token membership for all ServiceBricks microservices.
 
 ## License
 ServiceBricks is released under the MIT License.
