@@ -9,7 +9,7 @@
 [ServiceBricks](https://github.com/holomodular/ServiceBricks) is a powerful microservices platform designed to streamline the development, deployment, and maintenance of distributed systems. By leveraging Domain-Driven Design (DDD), Event-Driven Architecture (EDA), and a range of advanced features, ServiceBricks empowers teams to build robust, scalable, and highly customizable services tailored to their specific business domains.
 
 ## Learning
-* [Key Features](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/KeyFeatures.md): Learn about the key features of the ServiceBricks platform.
+* [ServiceBricks Key Features](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/KeyFeatures.md): Learn about the key features of the ServiceBricks platform.
 * [What are Microservices?](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/WhatAreMicroservices.md): Learn about microservices and their benefits.
 
 ## Getting Started
@@ -27,6 +27,27 @@ We have developed several pre-built microservices to help get you started. View 
 
 ## Developing Your Own Microservices
 
-* XUnit Tests
+* Setup Development Environment: In order to develop ServiceBricks microservices, these are the tools you should have installed.
+* XUnit Testing Framework: Setup your test environment to verify your microservice is working correctly in the platform.
+
+## ServiceBricks Features
+
+* [API Services and Clients](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/API.md): API Controllers, services, methods, policies and clients.
+* [Background Tasks](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BackgroundTasks.md): Background task processing.
+* [Business Rule Engine](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BusinessRuleEngine.md): Create, registering and executing business rules,
+* [Database Storage](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DatabaseStorage.md): Database storage and providers.
+* [Data Transfer Object](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DataTransferObject.md): DTOs and enabling storage agnostic, repository-based APIs.
+* [Domain Broadcasts](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainBroadcasts.md): Broadcasting domain events using service bus.
+* [Domain Events](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainEvents.md): Event-driven architecture and using domain and repository events.
+* [Domain Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainObjects.md): Domain objects at the core of the platform.
+* [Domain Rules](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainRules.md): Business rules and extending functionality.
+* [Domain Processes](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainProcesses.md): Domain processes and their usage for general integration.
+* [Exceptions](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/Exception.md): Exceptions and handling sensitive data in the platform.
+* [Mapping](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/Mapping.md): AutoMapper usage and mapping data.
+* [Modules](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/Modules.md): Registering a module with ServiceBricks.
+* [Request and Response Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/RequestAndResponse.md): Request and response objects and their usage.
+* [Service Bus](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ServiceBus.md): ServiceBus and communicating with other microservices.
+
+
 ## License
 ServiceBricks is released under the MIT License.
