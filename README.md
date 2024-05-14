@@ -12,6 +12,9 @@
 * [What are Microservices](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/WhatAreMicroservices.md): Learn about microservices and their benefits.
 * [ServiceBricks Key Features](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/KeyFeatures.md): Learn about the key features of the ServiceBricks platform.
 
+## Architecture
+* [Flow of Data](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/FlowOfData.md): Understand how data flows through the system.
+
 ## ServiceBricks Features
 
 * [API Services and Clients](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/APIServices.md): API Controllers, services, methods, policies and clients.
