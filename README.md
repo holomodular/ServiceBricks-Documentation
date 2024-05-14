@@ -14,6 +14,7 @@
 
 ## Architecture
 * [Flow of Data](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/FlowOfData.md): Understand how data flows through the system.
+* [Event-Based Architecture](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/EventBasedArchitecture.md): Understand how data flows through the system.
 
 ## ServiceBricks Features
 
