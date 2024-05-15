@@ -30,7 +30,7 @@ View the following sections to learn more about the ServiceBricks platform.
 * [Business Rule Engine](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BusinessRuleEngine.md): Create, registering and executing business rules,
 * [Database Storage](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DatabaseStorage.md): Database storage and providers.
 * [Data Transfer Object](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DataTransferObject.md): The Data Transfer Object (DTO) and enabling storage agnostic, repository-based APIs.
-* [Broadcasts and Service Bus Communication](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainBroadcasts.md): Broadcasting data using Service Bus and communicating with other microservices.
+* [Broadcasts and Service Bus Communication](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BroadcastsAndServiceBus.md): Broadcasting data using Service Bus and communicating with other microservices.
 * [Domain Events](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainEvents.md): Event-driven architecture and using domain and repository events.
 * [Domain Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainObjects.md): Domain objects are at the core of the platform.
 * [DomainRepository and StorageRepository](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainRepositoryAndStorageRepository.md): Understanding domain business logic and storage data access.
