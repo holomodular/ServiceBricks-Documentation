@@ -57,7 +57,7 @@ We recommend that you start with the Cache Microservice as it is very simple key
 
 * [Setup Development Environment](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/SetupDevelopmentEnvironment.md): In order to develop ServiceBricks microservices, these are the tools you should have installed.
 * [Xunit Testing Framework](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/XunitTesting.md): Test and verify your microservice is working correctly in the platform.
-
+* [Setup GitHub CI/CD Builds and Code Coverage](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/SettingUpBuilds.md): Setup CI/CD builds and code coverage for your microservice.
 
 ## License
 ServiceBricks is released under the MIT License.
