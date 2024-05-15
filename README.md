@@ -35,7 +35,7 @@ View the following sections to learn more about the ServiceBricks platform.
 * [DomainRepository and StorageRepository](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainRepositoryAndStorageRepository.md): Understanding domain business logic and storage data access.
 * [Domain Rules](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainRules.md): Business rules and extending functionality.
 * [Domain Processes](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainProcesses.md): Domain processes and their usage for general integration.
-* [Exceptions](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/Exception.md): Exceptions and handling sensitive data in the platform.
+* [Exceptions](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/Exceptions.md): Exceptions and handling sensitive data in the platform.
 * [Modules and Mappings](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ModulesAndMappings.md): Registering a module with ServiceBricks and using AutoMapper mappings.
 * [Request and Response Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/RequestAndResponse.md): Request and response objects, their usage and importance.
 * [ServiceQuery](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ServiceQuery.md): Dynamically query SQL and NoSQL database engines over REST APIs.
