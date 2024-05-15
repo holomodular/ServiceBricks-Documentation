@@ -14,7 +14,27 @@ Modules are used to identify assemblies in the ServiceBricks platform. Inside of
     }
 ```
 
-Each assembly in the ServiceBricks platform should create a module.
+Each assembly in the ServiceBricks platform should create a module class.
+
+## Registering a Module
+In order to register a module, you need to add a reference into the ModuleRegistry during system startup.
+This is typically done in a Extensions/ServiceCollectionExtensions.cs file during the AddServiceBricks...() method call.
+
+```csharp
+    using ServiceBricks;
+
+    public static class ServiceCollectionExtensions
+    {
+        public static IServiceCollection AddServiceBricksExample(this IServiceCollection services, IConfiguration configuration)
+        {
+            // Add to module registry
+            ModuleRegistry.Instance.RegisterItem(typeof(ExampleModule), new ExampleModule());
+        }
+    }
+```
+
+**NOTE: This call must be done prior to the call the services.AddServiceBricksComplete().** 
+Make sure to following standard startup procedures.
 
 ## AutoMapper Registration
 
@@ -50,7 +70,7 @@ This property is not currently being used by the core framework and have been ad
 
 ## The Plan For It
 This will hold a reference to all assemblies that your library references (as in your project files references). 
-In a future version, the platform will be able to walk the dependency tree to automatically call Add() and Start() for all modules.
+In a future version, the platform will be able to find all modules, instantiate them, walk the dependency tree and automatically call the Add() and Start() methods for all modules.
 This way the ServiceBricks platform can be added and started with two lines of code.
 
 ## ViewAssemblies
