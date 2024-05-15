@@ -14,7 +14,7 @@ View the following sections to learn more about the ServiceBricks platform.
 * [What are Microservices](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/WhatAreMicroservices.md): Learn about microservices and their benefits.
 * [ServiceBricks Key Features](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/KeyFeatures.md): Learn about the key features of the ServiceBricks platform.
 
-## Architecture
+## Architecture Diagrams
 * [Domain-Driven Design and Major System Components](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/FlowOfData.md): Describes the major system components and how data flows through the system.
 * [Event-Driven Architecture](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/EventDrivenArchitecture.md): Describes how Event-Driven Architecture (EDA) is used when processing methods.
 * [SQL and NoSQL Database Engine Support](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/SupportedDatabaseEngines.md): Describes the standard relational (SQL) and document (NoSQL) database engines we support and how to incorporate others.
