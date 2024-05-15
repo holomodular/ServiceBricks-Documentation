@@ -5,7 +5,7 @@ A Service Bus is used to send information between microservices asynchronously v
 ## Hosting Options
 ### Intra-Process Service Bus with InMemory Provider
 When hosting all your microservices within a single web application or process, we can use the default InMemory service bus provider.
-It is derived from the  **TaskQueueHostedService** class using its own processing queue, the same as (BackgroundTask Processing)[https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BackgroundTasks.md].
+It is derived from the  **TaskQueueHostedService** class using its own processing queue, the same as [BackgroundTask Processing](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BackgroundTasks.md).
 This is registered automatically for you when you call the **services.AddServiceBricks()** method in startup.
 
 ### Inter-Process Service Bus with Azure Provider
