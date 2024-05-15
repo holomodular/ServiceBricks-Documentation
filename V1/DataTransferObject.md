@@ -29,6 +29,19 @@ Object are typically identified with a primary key. There may be one or many key
 
 This is the reason we built [ServiceQuery](https://github.com/holomodular/ServiceQuery) and have included it into the ServiceBricks platform!
 
+```csharp
+    using ServiceBricks;
+
+    public interface IDataTransferObject
+    {
+        string StorageKey { get; set; }
+    }
+
+    public interface IDataTransferObject<TDto> : IDataTransferObject
+    {
+    }
+```
+
 ## Using the StorageKey property
 Our solution to this problem is to map all primary keys down to a single string value called the **StorageKey**.
 We can do this because all .NET datatypes can be serialized down to a string value. 
