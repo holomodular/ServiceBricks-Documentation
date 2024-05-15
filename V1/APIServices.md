@@ -144,7 +144,32 @@ When implementing API Controllers for your microservice, you have the choice of 
 
 
 ## Defining Security Policies
-You define policies and their rules in your web application.
+You define policies and their rules in your web application. 
+By default, ServiceBricks defines two policies.
+
+* ServiceBricksConstants.SECURITY_POLICY_ADMIN
+* ServiceBricksConstants.SECURITY_POLICY_USER
+
+These policies are applied to the IApiController methods to ensure security is enabled on all microservice methods.
+The following code shows how these policies are applied to methods.
+```csharp
+
+        ---SNIP----
+
+        [HttpGet]
+        [Route("Get")]
+        [Route("Get/{storageKey}")]
+        [Authorize(Policy = ServiceBricksConstants.SECURITY_POLICY_ADMIN)]
+        public override ActionResult Get([FromQuery] string storageKey)
+        {
+            return base.Get(storageKey);
+        }
+
+        ---SNIP----
+
+}
+```
+
 
 The following code overrides all security policies and allows anyone to access the API.
 ```csharp
@@ -159,3 +184,7 @@ The following code overrides all security policies and allows anyone to access t
                 policy.RequireAssertion(context => true));
         });
 ```
+
+# Reference Diagram
+
+![ServiceBricks Logo](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/MajorSystemComponents.png)  
