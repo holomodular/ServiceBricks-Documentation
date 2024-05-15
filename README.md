@@ -17,6 +17,7 @@ View the following sections to learn more about the ServiceBricks platform.
 ## Architecture
 * [Domain-Driven Design and Major System Components](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/FlowOfData.md): Describes the major system components and how data flows through the system.
 * [Event-Driven Architecture](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/EventDrivenArchitecture.md): Describes how Event-Driven Architecture (EDA) is used when processing methods.
+* [SQL and NoSQL Database Engine Support](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/SupportedDatabaseEngines.md): Describes the standard relational (SQL) and document (NoSQL) database engines we support and how to incorporate others.
 * [Classic vs Modern REST API Design](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ClassicVsModernRestApi.md): Describes the differences between Classic and Modern REST API Design implementations and how to configure their usage.
 * [NuGet Package Architecture](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/NuGet.md): Describes the NuGet package design.
 * [Deployment Scenarios](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DeploymentScenarios.md): Describes the most common deployment scenarios for your microservices foundation.
