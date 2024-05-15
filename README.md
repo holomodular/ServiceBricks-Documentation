@@ -52,7 +52,7 @@ We have developed several pre-built microservices to help get you started. View 
 
 ## Developing Your Own Microservices
 
-* [Setup Development Environment](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/APIServices.md): In order to develop ServiceBricks microservices, these are the tools you should have installed.
+* [Setup Development Environment](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/SetupDevelopmentEnvironment.md): In order to develop ServiceBricks microservices, these are the tools you should have installed.
 * [Xunit Testing Framework](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/XunitTesting.md): Test and verify your microservice is working correctly in the platform.
 
 
