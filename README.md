@@ -26,7 +26,7 @@ View the following sections to learn more about the ServiceBricks platform.
 ## Features
 
 * [API Controllers, Clients and Services](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/APIServices.md): API Controllers, clients, services, methods and policies. Classic and Modern modes of operation.
-* [Background Tasks](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BackgroundTasks.md): Background task processing.
+* [Background Tasks and Timers](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BackgroundTasks.md): Background task processing using hosted services and timers in the platform.
 * [Business Rule Engine](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BusinessRuleEngine.md): Create, registering and executing business rules,
 * [Database Storage](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DatabaseStorage.md): Database storage and providers.
 * [Data Transfer Object](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DataTransferObject.md): DTOs and enabling storage agnostic, repository-based APIs.
