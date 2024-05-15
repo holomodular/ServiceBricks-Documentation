@@ -100,6 +100,8 @@ In the ServiceBricks platform, this is accessed by the **IApiController inteface
 ## IApiController
 The IApiController interface provides the same methods as the IApiService interface except that the output for each method uses an ActionResult or Task<ActionResult> as the response.
 This allows us to do some translation when sending and receiving requests, namely allowing the option of using Classic vs Modern REST API Design modes.
+After inspecting the services configuration, it will return either standard serialized data objects or response objects containing the data.
+It is up to the developer to choose their preference.
 
 ```csharp
 public interface IApiController<TDto>
@@ -128,6 +130,32 @@ public interface IApiController<TDto>
 }
 ```
 
-## Classic vs Modern REST API Design
-After inspecting the services configuration, it will return either standard serialized data objects or response objects containing the data.
-It is up to the developer to choose their preference.
+## Security Policies
+The ServiceBricks platform exposes two security policies by default.
+
+ * Admin Policy
+ * User Policy
+
+When implementing API Controllers for your microservice, you have the choice of using three base ApiController types.
+
+* ApiController - This contains no security and should rarely be used
+* AdminPolicyApiController - This contains an authorize attribute requiring the user to have the ADMIN role.
+* UserPolicyApiController - This contains an authorize attribute requiring the user to have the USER role.
+
+
+## Defining Security Policies
+You define policies and their rules in your web application.
+
+The following code overrides all security policies and allows anyone to access the API.
+```csharp
+        // Add Authorization
+        services.AddAuthorization(options =>
+        {
+            //Add Built-in Security Policies
+            options.AddPolicy(ServiceBricksConstants.SECURITY_POLICY_ADMIN, policy =>
+                policy.RequireAssertion(context => true));
+
+            options.AddPolicy(ServiceBricksConstants.SECURITY_POLICY_USER, policy =>
+                policy.RequireAssertion(context => true));
+        });
+```
