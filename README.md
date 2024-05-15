@@ -46,12 +46,14 @@ View the following sections to learn more about the ServiceBricks platform.
 
 ## Official Pre-Built Microservices
 We have developed several pre-built microservices to help get you started. View the following repositories for more information:
+
 * [Cache Microservice](https://github.com/holomodular/ServiceBricks-Cache): This repository is a temporary generic data storage microservice.
 * [Logging Microservice](https://github.com/holomodular/ServiceBricks-Logging): This repository is a service-scoped or centralized application and web request logging microservice.
 * [Notification Microservice](https://github.com/holomodular/ServiceBricks-Notification): This repository is a notification and delivery of emails and SMS messages microservice.
 * [Security Microservice](https://github.com/holomodular/ServiceBricks-Security): This repository is an authentication, authorization and application security microservice supporting JWT token membership for all ServiceBricks microservices.
 
 ## Developing Your Own Microservices
+We recommend that you start with the Cache Microservice as it is very simple key/value pair storage microservice. It contains a single DTO that maps to a single database table/collection with a couple properties. Depending on the storage provider, a primary key and other properties might be needed. Otherwise, the cache key is translated to the DTO StorageKey property.
 
 * [Setup Development Environment](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/SetupDevelopmentEnvironment.md): In order to develop ServiceBricks microservices, these are the tools you should have installed.
 * [Xunit Testing Framework](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/XunitTesting.md): Test and verify your microservice is working correctly in the platform.
