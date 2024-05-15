@@ -15,7 +15,7 @@ View the following sections to learn more about the ServiceBricks platform.
 * [ServiceBricks Key Features](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/KeyFeatures.md): Learn about the key features of the ServiceBricks platform.
 
 ## Architecture
-* [Major System Components](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/FlowOfData.md): Describes the major system components and how data flows through the system.
+* [Domain-Driven Design and Major System Components](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/FlowOfData.md): Describes the major system components and how data flows through the system.
 * [Event-Driven Architecture](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/EventDrivenArchitecture.md): Describes how Event-Driven Architecture (EDA) is used when processing methods.
 * [Classic vs Modern REST API Design](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ClassicVsModernRestApi.md): Describes the differences between Classic and Modern REST API Design implementations and how to configure their usage.
 * [NuGet Package Architecture](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/NuGet.md): Describes the NuGet package design.
