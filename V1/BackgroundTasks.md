@@ -1,4 +1,4 @@
-# Background Tasks
+# Background Tasks and Timers
 ## Overview
 The ServiceBricks platform facilitates background processing using Hosted Services.
 
@@ -130,3 +130,11 @@ An example timer is defined below. Note that we pass the WorkDetail and Worker c
 
 The TimerTickShouldProcessRun() function checks to make sure that the microservice is first started and also that it is currently not executing in the background.
 You can add other logic here to determine whether the task should run or not for each tick.
+
+Finally, you will need to register this hosted service into the .NET pipeline by calling the following line:
+
+```csharp
+
+services.AddHostedService<ExampleTimer>();
+
+```
