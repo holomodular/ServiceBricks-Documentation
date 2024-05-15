@@ -27,14 +27,12 @@ View the following sections to learn more about the ServiceBricks platform.
 
 * [API Clients, Controllers and Services](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/APIServices.md): API Controllers, clients, services, methods and policies. Classic and Modern modes of operation.
 * [Background Tasks and Timers](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BackgroundTasks.md): Background task processing using hosted services and timers in the platform.
-* [Business Rule Engine](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BusinessRuleEngine.md): Create, registering and executing business rules,
-* [Database Storage](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DatabaseStorage.md): Database storage and providers.
+* [Business Rules and the Business Rule Engine](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BusinessRuleEngine.md): Create, registering and executing business rules,
 * [Data Transfer Object](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DataTransferObject.md): The Data Transfer Object (DTO) and enabling storage agnostic, repository-based APIs.
 * [Broadcasts and Service Bus Communication](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BroadcastsAndServiceBus.md): Broadcasting data using Service Bus and communicating with other microservices.
 * [Domain Events](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainEvents.md): Event-driven architecture and using domain and repository events.
 * [Domain Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainObjects.md): Domain objects are at the core of the platform.
 * [DomainRepository and StorageRepository](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainRepositoryAndStorageRepository.md): Understanding domain business logic and storage data access.
-* [Domain Rules](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainRules.md): Business rules and extending functionality.
 * [Domain Processes](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainProcesses.md): Domain processes and their usage for general integration.
 * [Exceptions](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/Exceptions.md): How to handle exceptions in the platform.
 * [Modules and AutoMapper Mappings](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ModulesAndMappings.md): Registering a module with ServiceBricks and using AutoMapper mappings.
