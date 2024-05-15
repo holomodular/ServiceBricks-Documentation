@@ -95,7 +95,7 @@ services.AddServiceBricksLoggingClient(Configuration);
 A controller is an abstraction layer used to expose the API Service on a server.
 It is responsible for holding attributes, such as for routing requests, authorize attributes for authorization or for other needs.
 
-In the ServiceBricks platform, this is accessed by the **IApiController inteface***.
+In the ServiceBricks platform, this is accessed by the **IApiController*** inteface.
 
 ## IApiController
 The IApiController interface provides the same methods as the IApiService interface except that the output for each method uses an ActionResult or Task<ActionResult> as the response.
@@ -170,8 +170,32 @@ The following code shows how these policies are applied to methods.
 }
 ```
 
+The typical security setup would be to use these security policies like so:
 
-The following code overrides all security policies and allows anyone to access the API.
+```csharp
+
+            // Add Authorization
+            services.AddAuthorization(options =>
+            {
+                //Add Built-in Security Policies
+                options.AddPolicy(ServiceBricksConstants.SECURITY_POLICY_ADMIN, policy =>
+                    policy
+                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                    .AddAuthenticationSchemes(CookieAuthenticationDefaults.AuthenticationScheme)
+                    .AddAuthenticationSchemes(IdentityConstants.ApplicationScheme)
+                    .RequireRole(SecurityConstants.ROLE_ADMIN_NAME));
+
+                options.AddPolicy(ServiceBricksConstants.SECURITY_POLICY_USER, policy =>
+                    policy
+                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                    .AddAuthenticationSchemes(CookieAuthenticationDefaults.AuthenticationScheme)
+                    .AddAuthenticationSchemes(IdentityConstants.ApplicationScheme)
+                    .RequireRole(SecurityConstants.ROLE_USER_NAME));
+            });
+
+```
+
+If you are not using security, you can overrides the default security policies and allow anyone to access the API with no security.
 ```csharp
         // Add Authorization
         services.AddAuthorization(options =>
