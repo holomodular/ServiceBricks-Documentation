@@ -30,7 +30,7 @@ Domain objects are central to this approach and are at the core of the ServiceBr
 * Has a single string property, StorageKey, which is used to identify any domain object through the use of .NET datatype string serialization and delimeters.
 * It is the object exposed from a microservice and should always be used with the IApiService
 
-## Types of DomainObjects
+## DomainObjects for the Business Rule Engine
 The domain object is at the core the platform and has many uses.
 
 ### DomainBroadcast
@@ -46,7 +46,7 @@ Domain processes are used to denote generic business processes in the platform a
 The functionality of processes can be easily removed and changed with the business rule engine.
 Ex. LoginProcess, SendEmailProcess, PlaceOrderProcess, etc...
 
-## Types of DomainObjects for Storage
+## DomainObjects for Storage
 
 ### AzureDataTableDomainObject
 Used to denote a domain model using the AzureDataTables storage provider.
