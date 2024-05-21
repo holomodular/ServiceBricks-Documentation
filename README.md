@@ -30,10 +30,8 @@ View the following sections to learn more about the ServiceBricks platform.
 * [Business Rules and the Business Rule Engine](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BusinessRuleEngine.md): Create, registering and executing business rules,
 * [Data Transfer Object](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DataTransferObject.md): The Data Transfer Object (DTO) and enabling storage agnostic, repository-based APIs.
 * [Broadcasts and Service Bus Communication](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/BroadcastsAndServiceBus.md): Broadcasting data using Service Bus and communicating with other microservices.
-* [Domain Events](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainEvents.md): Event-driven architecture and using domain and repository events.
-* [Domain Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainObjects.md): Domain objects are at the core of the platform.
+* [Domain Objects, Broadcasts, Events, Process](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainObjects.md): Domain objects are the core object of the platform and how to use and extend them.
 * [DomainRepository and StorageRepository](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainRepositoryAndStorageRepository.md): Understanding domain business logic and storage data access.
-* [Domain Processes](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/DomainProcesses.md): Domain processes and their usage for general integration.
 * [Exceptions](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/Exceptions.md): How to handle exceptions in the platform.
 * [Modules and AutoMapper Mappings](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/ModulesAndMappings.md): Registering a module with ServiceBricks and using AutoMapper mappings.
 * [Request and Response Objects](https://github.com/holomodular/ServiceBricks-Documentation/blob/main/V1/RequestAndResponse.md): Request and response objects, their usage and importance.
